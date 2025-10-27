@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>抽奖大转盘</title>
+    <style>
+        .lottery-wrap {
+            margin: 20px 0;
+            padding: 16px;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            background: #fff7ed;
+        }
+
+        .lottery-header {
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .lottery-meta {
+            font-size: 13px;
+            color: #7a3e00;
+            margin-bottom: 10px;
+        }
+
+        .lottery-stage {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .wheel-wrap {
+            position: relative;
+            width: 380px;
+            height: 380px;
+        }
+
+        #wheel {
+            border-radius: 50%;
+            border: 6px solid #ffcf76;
+            background: #ffe9c2;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, .06);
+        }
+
+        .pointer {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -6px;
+            width: 0;
+            height: 0;
+            border-left: 12px solid transparent;
+            border-right: 12px solid transparent;
+            border-bottom: 20px solid #ff5a00;
+        }
+
+        .lottery-btn {
+            padding: 10px 14px;
+            background: #ff8c31;
+            color: #fff;
+            border: 0;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .lottery-btn:disabled {
+            opacity: .7;
+            cursor: not-allowed;
+        }
+
+        .lottery-tip {
+            font-size: 12px;
+            color: #a66a00;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div id="lottery-wrap" class="lottery-wrap">
+        <div class="lottery-header">抽奖大转盘</div>
+        
+        <div class="lottery-meta">
+            当前B币：<span id="bBalance"><%=bBalance%></span> | 
+            每次消耗：<span id="drawCost">10</span>
+        </div>
+        
+        <div class="lottery-stage">
+            <div class="wheel-wrap">
+                <canvas id="wheel" width="380" height="380"></canvas>
+                <div class="pointer"></div>
+            </div>
+            <button id="spinBtn" class="lottery-btn">开始抽奖</button>
+        </div>
+        
+        <div class="lottery-tip">奖池来源：WEB_Gift 表（Cash/Money/道具）</div>
+    </div>
+
+    <script>
+        (function() {
+            var drawCost = 10; // 和服务端保持一致
+            var prizes = <%=prizeJS & "]"%>;
+            var charId = "<%=Id%>";
+            var drawUrl = "ShopCore.asp?Action=LotteryDraw&Id=" + encodeURIComponent(charId);
+            
+            var bBalanceEl = document.getElementById("bBalance");
+            var spinBtn = document.getElementById("spinBtn");
+            var wheel = document.getElementById("wheel");
+            var ctx = wheel.getContext("2d");
+
+            function drawWheel() {
+                var n = prizes.length;
+                var radius = wheel.width / 2;
+                
+                ctx.setTransform(1, 0, 0, 1, 0, 0);
+                ctx.clearRect(0, 0, wheel.width, wheel.height);
+                
+                if (n === 0) {
+                    spinBtn.disabled = true;
+                    spinBtn.textContent = "奖池为空";
+                    return;
+                }
+                
+                ctx.translate(radius, radius);
+                var anglePer = 2 * Math.PI / n;
+                
+                for (var i = 0; i < n; i++) {
+                    var start = i * anglePer;
+                    
+                    ctx.beginPath();
+                    ctx.fillStyle = i % 2 ? "#ffd66b" : "#ffb84d";
+                    ctx.moveTo(0, 0);
+                    ctx.arc(0, 0, radius, start, start + anglePer, false);
+                    ctx.fill();
+                    
+                    ctx.save();
+                    ctx.fillStyle = "#7a3e00";
+                    ctx.rotate(start + anglePer / 2);
+                    ctx.textAlign = "right";
+                    ctx.font = "14px sans-serif";
+                    
+                    var label = prizes[i].name || "奖励";
+                    var details = [];
+                    
+                    if (prizes[i].count > 1) details.push("x" + prizes[i].count);
+                    if (prizes[i].cash > 0) details.push("商城币+" + prizes[i].cash);
+                    if (prizes[i].money > 0) details.push("金币+" + (prizes[i].money / 10000) + "万");
+                    
+                    ctx.fillText(
+                        label + (details.length ? " (" + details.join(" ") + ")" : ""), 
+                        radius - 10, 
+                        0
+                    );
+                    ctx.restore();
+                }
+                
+                ctx.translate(-radius, -radius);
+            }
+
+            function findIndexById(id) {
+                for (var i = 0; i < prizes.length; i++) {
+                    if (prizes[i].id == id) return i;
+                }
+                return -1;
+            }
+
+            function spinTo(index, onDone) {
+                var n = prizes.length;
+                var anglePer = 360 / n;
+                var targetAngle = 360 - (index * anglePer + anglePer / 2);
+                var rounds = 6;
+                
+                wheel.style.transition = "transform 3.5s cubic-bezier(.2,.85,.25,1)";
+                wheel.style.transform = "rotate(" + (rounds * 360 + targetAngle) + "deg)";
+                
+                var done = function() {
+                    wheel.removeEventListener("transitionend", done);
+                    wheel.style.transition = "none";
+                    wheel.style.transform = "rotate(" + targetAngle + "deg)";
+                    onDone && onDone();
+                };
+                
+                wheel.addEventListener("transitionend", done);
+            }
+
+            function updateBalance(v) {
+                bBalanceEl.textContent = v;
+            }
+
+            function alertMsg(title, text, type) {
+                if (window.swal) {
+                    swal({ title: title, text: text, type: type });
+                } else {
+                    alert(title + " - " + text);
+                }
+            }
+
+            drawWheel();
+
+            spinBtn.addEventListener("click", function() {
+                var balance = parseInt(bBalanceEl.textContent || "0", 10);
+                
+                if (prizes.length === 0) {
+                    return alertMsg("提示", "奖池为空", "warning");
+                }
+                
+                if (balance < drawCost) {
+                    return alertMsg("提示", "B币不足", "warning");
+                }
+                
+                spinBtn.disabled = true;
+                spinBtn.textContent = "抽奖中...";
+                
+                fetch(drawUrl, {
+                    method: "POST",
+                    headers: { "X-Requested-With": "XMLHttpRequest" }
+                })
+                .then(r => r.json())
+                .then(function(res) {
+                    if (!res.ok) {
+                        spinBtn.disabled = false;
+                        spinBtn.textContent = "开始抽奖";
+                        alertMsg("错误", res.msg || "抽奖失败", "error");
+                        if (typeof res.b_amount === "number") updateBalance(res.b_amount);
+                        return;
+                    }
+                    
+                    var i = findIndexById(res.winId);
+                    if (i < 0) i = Math.floor(Math.random() * prizes.length);
+                    
+                    spinTo(i, function() {
+                        updateBalance(res.b_amount);
+                        spinBtn.disabled = false;
+                        spinBtn.textContent = "开始抽奖";
+                        
+                        var t = res.name;
+                        if (res.count > 1) t += " x" + res.count;
+                        if (res.cash > 0) t += "，商城币+" + res.cash;
+                        if (res.money > 0) t += "，金币+" + (res.money / 10000) + "万";
+                        
+                        alertMsg("恭喜！", "获得：" + t, "success");
+                    });
+                })
+                .catch(function() {
+                    spinBtn.disabled = false;
+                    spinBtn.textContent = "开始抽奖";
+                    alertMsg("错误", "网络异常，请稍后再试", "error");
+                });
+            });
+        })();
+    </script>
+</body>
+</html>

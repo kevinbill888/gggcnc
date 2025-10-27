@@ -1,0 +1,43 @@
+<%
+ip=Request.ServerVariables("Remote_Addr")
+blockip=0
+If Left(ip,5)="218.9" Then blockip=1
+If Left(ip,7)="112.113" Then blockip=1
+If request.Cookies("tz")("username") = "user" Then blockip=1
+If blockip=1 Then 
+Response.Cookies("tz")("username") = "user"
+Response.Cookies("tz").expires =date+500
+%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>该页无法显示</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=GB2312">
+<STYLE type="text/css">
+  BODY { font: 9pt/12pt 宋体 }
+  H1 { font: 12pt/15pt 宋体 }
+  H2 { font: 9pt/12pt 宋体 }
+  A:link { color: red }
+  A:visited { color: maroon }
+</STYLE>
+</HEAD><BODY><TABLE width=500 border=0 cellspacing=10><TR><TD>
+
+<h1>该页无法显示</h1>
+您要查找的页面存在问题，因此无法显示。
+<hr>
+<p>请尝试以下操作：</p>
+<ul>
+<li>请与网站管理员联系，通知他们此 URL 地址出现了该错误。</li>
+</ul>
+<h2>HTTP 错误 500 - 服务器内部错误。<br>Internet 信息服务 (IIS)</h2>
+<hr>
+<p>技术信息（为技术支持人员提供）</p>
+<ul>
+<li>转到 <a href="http://go.microsoft.com/fwlink/?linkid=8180">Microsoft 产品支持服务</a>并搜索包括&ldquo;HTTP&rdquo;和&ldquo;500&rdquo;的标题。</li>
+<li>打开&ldquo;IIS 帮助&rdquo;（可在 IIS 管理器 (inetmgr) 中访问），然后搜索标题为&ldquo;网站管理&rdquo;和&ldquo;关于自定义错误消息&rdquo;的主题。</li>
+<li>在 IIS 软件开发工具包 (SDK) 或 <a href="http://go.microsoft.com/fwlink/?LinkId=8181">MSDN Online Library</a> 中，搜索标题为“Debugging ASP Scripts”、“Debugging Components”和“Debugging ISAPI Extensions and Filters”的主题。</li>
+</ul>
+
+</TD></TR></TABLE></BODY></HTML>
+<%
+Response.end
+End If 
+%>
