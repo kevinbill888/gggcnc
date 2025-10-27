@@ -1,0 +1,1051 @@
+[20-Oct-2025 05:10:43 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371418003814
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 05:10:37
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510200510309709
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 05:10:41
+    [body] => �û���ֵ ��0.01����� 1 C��
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 05:10:41
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222051041015371450824581
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 03b110e5311bef2ab2ed9e6b546df31a
+)
+
+[20-Oct-2025 05:10:43 PRC] 签名验证成功
+[20-Oct-2025 05:10:43 PRC] 处理订单: PAY202510200510309709, 状态: TRADE_SUCCESS
+[20-Oct-2025 05:10:43 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 05:10:43 PRC] 订单状态更新成功
+[20-Oct-2025 05:13:48 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371418003814
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 05:10:37
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510200510309709
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 05:13:47
+    [body] => �û���ֵ ��0.01����� 1 C��
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 05:10:41
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222051041015371450824581
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 044e9463c772d29708664f101c37817e
+)
+
+[20-Oct-2025 05:13:48 PRC] 签名验证成功
+[20-Oct-2025 05:13:48 PRC] 处理订单: PAY202510200510309709, 状态: TRADE_SUCCESS
+[20-Oct-2025 05:13:49 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 05:13:49 PRC] 订单状态更新成功
+[20-Oct-2025 05:13:51 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371413596348
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 03:47:36
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510200347323949
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 05:13:49
+    [body] => �û���ֵ ��0.01����� 1 C��
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 03:47:41
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222034741015371445410168
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 3c0ab14d934a26f8680664ef5a501287
+)
+
+[20-Oct-2025 05:13:51 PRC] 签名验证成功
+[20-Oct-2025 05:13:51 PRC] 处理订单: PAY202510200347323949, 状态: TRADE_SUCCESS
+[20-Oct-2025 05:13:51 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 05:13:51 PRC] 订单状态更新成功
+[20-Oct-2025 05:18:12 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371419327189
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 05:04:34
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510200504284813
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 05:18:11
+    [body] => �û���ֵ ��0.01����� 1 C��
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 05:04:40
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222050440015371449650597
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 178cd9a719ff505d388f8dc5c03911d4
+)
+
+[20-Oct-2025 05:18:12 PRC] 签名验证成功
+[20-Oct-2025 05:18:12 PRC] 处理订单: PAY202510200504284813, 状态: TRADE_SUCCESS
+[20-Oct-2025 05:18:13 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 05:18:13 PRC] 订单状态更新成功
+[20-Oct-2025 05:24:34 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371418003814
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 05:10:37
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510200510309709
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 05:24:33
+    [body] => �û���ֵ ��0.01����� 1 C��
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 05:10:41
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222051041015371450824581
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => e69e976dee7839c9f094871f7ef77eb1
+)
+
+[20-Oct-2025 05:24:34 PRC] 签名验证成功
+[20-Oct-2025 05:24:34 PRC] 处理订单: PAY202510200510309709, 状态: TRADE_SUCCESS
+[20-Oct-2025 05:24:35 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 05:24:35 PRC] 订单状态更新成功
+[20-Oct-2025 05:25:36 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371417812032
+    [subject] => ���Զ���
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 03:59:31
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => TEST20251020035914
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 05:25:34
+    [body] => ����һ�����Զ���
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 03:59:36
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222035936015371444281886
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 1738b3d9349baa0c31ec88031f96b1c6
+)
+
+[20-Oct-2025 05:25:36 PRC] 签名验证成功
+[20-Oct-2025 05:25:36 PRC] 处理订单: TEST20251020035914, 状态: TRADE_SUCCESS
+[20-Oct-2025 05:25:37 PRC] 未找到订单: TEST20251020035914
+[20-Oct-2025 05:29:35 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371419327189
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 05:04:34
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510200504284813
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 05:29:33
+    [body] => �û���ֵ ��0.01����� 1 C��
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 05:04:40
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222050440015371449650597
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 4a6753e6d23446b2c98e6fe9d9c82ef1
+)
+
+[20-Oct-2025 05:29:35 PRC] 签名验证成功
+[20-Oct-2025 05:29:35 PRC] 处理订单: PAY202510200504284813, 状态: TRADE_SUCCESS
+[20-Oct-2025 05:29:35 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 05:29:35 PRC] 订单状态更新成功
+[20-Oct-2025 05:35:05 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371418003814
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 05:10:37
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510200510309709
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 05:35:04
+    [body] => �û���ֵ ��0.01����� 1 C��
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 05:10:41
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222051041015371450824581
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 90412b0eb696d6c5e051a8b207755b68
+)
+
+[20-Oct-2025 05:35:05 PRC] 签名验证成功
+[20-Oct-2025 05:35:05 PRC] 处理订单: PAY202510200510309709, 状态: TRADE_SUCCESS
+[20-Oct-2025 05:35:06 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 05:35:06 PRC] 订单状态更新成功
+[20-Oct-2025 06:30:20 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371419327189
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 05:04:34
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510200504284813
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 06:30:18
+    [body] => �û���ֵ ��0.01����� 1 C��
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 05:04:40
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222050440015371449650597
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => d5b4290eec0182f5f2f6d82bbac1358d
+)
+
+[20-Oct-2025 06:30:20 PRC] 签名验证成功
+[20-Oct-2025 06:30:20 PRC] 处理订单: PAY202510200504284813, 状态: TRADE_SUCCESS
+[20-Oct-2025 06:30:20 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 06:30:20 PRC] 订单状态更新成功
+[20-Oct-2025 06:36:50 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371418003814
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 05:10:37
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510200510309709
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 06:36:49
+    [body] => �û���ֵ ��0.01����� 1 C��
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 05:10:41
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222051041015371450824581
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 73f03b9093aa032f0e73c42a6843373d
+)
+
+[20-Oct-2025 06:36:50 PRC] 签名验证成功
+[20-Oct-2025 06:36:50 PRC] 处理订单: PAY202510200510309709, 状态: TRADE_SUCCESS
+[20-Oct-2025 06:36:51 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 06:36:51 PRC] 订单状态更新成功
+[20-Oct-2025 07:14:43 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371413596348
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 03:47:36
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510200347323949
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 07:14:41
+    [body] => �û���ֵ ��0.01����� 1 C��
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 03:47:41
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222034741015371445410168
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 3298c65f8388ce5e09794096456e2333
+)
+
+[20-Oct-2025 07:14:43 PRC] 签名验证成功
+[20-Oct-2025 07:14:43 PRC] 处理订单: PAY202510200347323949, 状态: TRADE_SUCCESS
+[20-Oct-2025 07:14:43 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 07:14:43 PRC] 订单状态更新成功
+[20-Oct-2025 07:26:01 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371417812032
+    [subject] => ���Զ���
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 03:59:31
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => TEST20251020035914
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 07:26:00
+    [body] => ����һ�����Զ���
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 03:59:36
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222035936015371444281886
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => fe56b418752d3b2465fc5eaaf61194fc
+)
+
+[20-Oct-2025 07:26:01 PRC] 签名验证成功
+[20-Oct-2025 07:26:01 PRC] 处理订单: TEST20251020035914, 状态: TRADE_SUCCESS
+[20-Oct-2025 07:26:02 PRC] 未找到订单: TEST20251020035914
+[20-Oct-2025 08:31:39 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371419327189
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 05:04:34
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510200504284813
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 08:31:37
+    [body] => �û���ֵ ��0.01����� 1 C��
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 05:04:40
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222050440015371449650597
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 00dbf5e80b6ad21c4cd73c456857bc4a
+)
+
+[20-Oct-2025 08:31:39 PRC] 签名验证成功
+[20-Oct-2025 08:31:39 PRC] 处理订单: PAY202510200504284813, 状态: TRADE_SUCCESS
+[20-Oct-2025 08:31:39 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 08:31:39 PRC] 订单状态更新成功
+[20-Oct-2025 08:37:28 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371418003814
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 05:10:37
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510200510309709
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 08:37:26
+    [body] => �û���ֵ ��0.01����� 1 C��
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 05:10:41
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222051041015371450824581
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 32e86f7f69427f4583be0911b19b46f6
+)
+
+[20-Oct-2025 08:37:28 PRC] 签名验证成功
+[20-Oct-2025 08:37:28 PRC] 处理订单: PAY202510200510309709, 状态: TRADE_SUCCESS
+[20-Oct-2025 08:37:28 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 08:37:28 PRC] 订单状态更新成功
+[20-Oct-2025 13:15:20 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371413596348
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 03:47:36
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510200347323949
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 13:15:18
+    [body] => �û���ֵ ��0.01����� 1 C��
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 03:47:41
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222034741015371445410168
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => bc350fe8602faa857d33e076bcb8c26c
+)
+
+[20-Oct-2025 13:15:20 PRC] 签名验证成功
+[20-Oct-2025 13:15:20 PRC] 处理订单: PAY202510200347323949, 状态: TRADE_SUCCESS
+[20-Oct-2025 13:15:20 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 13:15:20 PRC] 订单状态更新成功
+[20-Oct-2025 13:27:27 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371417812032
+    [subject] => ���Զ���
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 03:59:31
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => TEST20251020035914
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 13:27:26
+    [body] => ����һ�����Զ���
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 03:59:36
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222035936015371444281886
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 76611203d66175cba97729cc1070a9e1
+)
+
+[20-Oct-2025 13:27:27 PRC] 签名验证成功
+[20-Oct-2025 13:27:27 PRC] 处理订单: TEST20251020035914, 状态: TRADE_SUCCESS
+[20-Oct-2025 13:27:28 PRC] 未找到订单: TEST20251020035914
+[20-Oct-2025 14:08:50 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371420450032
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 14:08:42
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510201408296950
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 14:08:49
+    [body] => C�ҳ�ֵ
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 14:08:49
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222140849015371447711097
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 17941102b2436584ebd73ccb4623c8aa
+)
+
+[20-Oct-2025 14:08:50 PRC] 签名验证成功
+[20-Oct-2025 14:08:50 PRC] 处理订单: PAY202510201408296950, 状态: TRADE_SUCCESS
+[20-Oct-2025 14:08:51 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 14:08:51 PRC] 订单状态更新成功
+[20-Oct-2025 14:10:18 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371418876813
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 14:10:11
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510201410058009
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 14:10:16
+    [body] => C�ҳ�ֵ
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 14:10:16
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222141016015371447764258
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 6649578080f15c07b1699d0d84ba86e2
+)
+
+[20-Oct-2025 14:10:18 PRC] 签名验证成功
+[20-Oct-2025 14:10:18 PRC] 处理订单: PAY202510201410058009, 状态: TRADE_SUCCESS
+[20-Oct-2025 14:10:18 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 14:10:18 PRC] 订单状态更新成功
+[20-Oct-2025 14:11:15 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371420450032
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 14:08:42
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510201408296950
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 14:11:14
+    [body] => C�ҳ�ֵ
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 14:08:49
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222140849015371447711097
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 870290eff5b83a33a8c1c0c96242c31d
+)
+
+[20-Oct-2025 14:11:15 PRC] 签名验证成功
+[20-Oct-2025 14:11:15 PRC] 处理订单: PAY202510201408296950, 状态: TRADE_SUCCESS
+[20-Oct-2025 14:11:16 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 14:11:16 PRC] 订单已处理过: PAY202510201408296950
+[20-Oct-2025 14:13:29 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371418876813
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 14:10:11
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510201410058009
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 14:13:27
+    [body] => C�ҳ�ֵ
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 14:10:16
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222141016015371447764258
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 0b6fd1e5509ca3153b191b531b3fc928
+)
+
+[20-Oct-2025 14:13:29 PRC] 签名验证成功
+[20-Oct-2025 14:13:29 PRC] 处理订单: PAY202510201410058009, 状态: TRADE_SUCCESS
+[20-Oct-2025 14:13:29 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 14:13:29 PRC] 订单已处理过: PAY202510201410058009
+[20-Oct-2025 14:20:36 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371417952669
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 14:20:29
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510201420237014
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 14:20:35
+    [body] => C�ҳ�ֵ
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 14:20:35
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222142035015371447698089
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 96b67a7c8c43d08cec0254063d30519a
+)
+
+[20-Oct-2025 14:20:36 PRC] 签名验证成功
+[20-Oct-2025 14:20:36 PRC] 处理订单: PAY202510201420237014, 状态: TRADE_SUCCESS
+[20-Oct-2025 14:20:37 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 14:20:37 PRC] 订单状态更新成功
+[20-Oct-2025 14:23:48 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371417952669
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 14:20:29
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510201420237014
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 14:23:46
+    [body] => C�ҳ�ֵ
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 14:20:35
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222142035015371447698089
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 344ee2c2f357909f047d5b82634ac97d
+)
+
+[20-Oct-2025 14:23:48 PRC] 签名验证成功
+[20-Oct-2025 14:23:48 PRC] 处理订单: PAY202510201420237014, 状态: TRADE_SUCCESS
+[20-Oct-2025 14:23:48 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 14:23:48 PRC] 订单状态更新成功
+[20-Oct-2025 14:23:52 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371420101827
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 14:23:46
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510201423402845
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 14:23:51
+    [body] => C�ҳ�ֵ
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 14:23:51
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222142351015371448724042
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 02e4310dc42ab243a8acc71790bfa92c
+)
+
+[20-Oct-2025 14:23:52 PRC] 签名验证成功
+[20-Oct-2025 14:23:52 PRC] 处理订单: PAY202510201423402845, 状态: TRADE_SUCCESS
+[20-Oct-2025 14:23:53 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 14:23:53 PRC] 订单状态更新成功
+[20-Oct-2025 14:26:28 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371420101827
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 14:23:46
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510201423402845
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 14:26:26
+    [body] => C�ҳ�ֵ
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 14:23:51
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222142351015371448724042
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 2753060d384b24e34b77401d0a43662a
+)
+
+[20-Oct-2025 14:26:28 PRC] 签名验证成功
+[20-Oct-2025 14:26:28 PRC] 处理订单: PAY202510201423402845, 状态: TRADE_SUCCESS
+[20-Oct-2025 14:26:28 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 14:26:28 PRC] 订单状态更新成功
+[20-Oct-2025 14:27:39 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371418935874
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 14:27:33
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510201427278315
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 14:27:37
+    [body] => C�ҳ�ֵ
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 14:27:37
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222142737015371450966858
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 77d11d1f6f7ced6e95abfbb0c802c40c
+)
+
+[20-Oct-2025 14:27:39 PRC] 签名验证成功
+[20-Oct-2025 14:27:39 PRC] 处理订单: PAY202510201427278315, 状态: TRADE_SUCCESS
+[20-Oct-2025 14:27:39 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 14:27:39 PRC] 订单状态更新成功
+[20-Oct-2025 14:30:07 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371418935874
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 14:27:33
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510201427278315
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 14:30:06
+    [body] => C�ҳ�ֵ
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 14:27:37
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222142737015371450966858
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 20b049eab491ebc386304b294c36b5d2
+)
+
+[20-Oct-2025 14:30:07 PRC] 签名验证成功
+[20-Oct-2025 14:30:07 PRC] 处理订单: PAY202510201427278315, 状态: TRADE_SUCCESS
+[20-Oct-2025 14:30:08 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 14:30:08 PRC] 订单已处理过: PAY202510201427278315
+[20-Oct-2025 14:32:44 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371419327189
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 05:04:34
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510200504284813
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 14:32:43
+    [body] => �û���ֵ ��0.01����� 1 C��
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 05:04:40
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222050440015371449650597
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 8697d4289a62cf22c6c033ab719393b0
+)
+
+[20-Oct-2025 14:32:44 PRC] 签名验证成功
+[20-Oct-2025 14:32:44 PRC] 处理订单: PAY202510200504284813, 状态: TRADE_SUCCESS
+[20-Oct-2025 14:32:45 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 14:32:45 PRC] 订单状态更新成功
+[20-Oct-2025 14:34:01 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371417952669
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 14:20:29
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510201420237014
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 14:34:00
+    [body] => C�ҳ�ֵ
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 14:20:35
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222142035015371447698089
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 656cffa9d155451a559a478e48829dd1
+)
+
+[20-Oct-2025 14:34:01 PRC] 签名验证成功
+[20-Oct-2025 14:34:01 PRC] 处理订单: PAY202510201420237014, 状态: TRADE_SUCCESS
+[20-Oct-2025 14:34:02 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 14:34:02 PRC] 订单状态更新成功
+[20-Oct-2025 14:37:17 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371420101827
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 14:23:46
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510201423402845
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 14:37:16
+    [body] => C�ҳ�ֵ
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 14:23:51
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222142351015371448724042
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 60e3d33a0a8ecc2935a70bd3106ac912
+)
+
+[20-Oct-2025 14:37:17 PRC] 签名验证成功
+[20-Oct-2025 14:37:17 PRC] 处理订单: PAY202510201423402845, 状态: TRADE_SUCCESS
+[20-Oct-2025 14:37:18 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 14:37:18 PRC] 订单状态更新成功
+[20-Oct-2025 14:38:27 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371418003814
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 05:10:37
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510200510309709
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 14:38:24
+    [body] => �û���ֵ ��0.01����� 1 C��
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 05:10:41
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222051041015371450824581
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 9903addc949c77f717dac86e0bf844ff
+)
+
+[20-Oct-2025 14:38:27 PRC] 签名验证成功
+[20-Oct-2025 14:38:27 PRC] 处理订单: PAY202510200510309709, 状态: TRADE_SUCCESS
+[20-Oct-2025 14:38:28 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 14:38:28 PRC] 订单状态更新成功
+[20-Oct-2025 14:45:45 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371417952669
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 14:20:29
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510201420237014
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 14:45:43
+    [body] => C�ҳ�ֵ
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 14:20:35
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222142035015371447698089
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 422d8f7a1670957d9ea936c02a60f4a3
+)
+
+[20-Oct-2025 14:45:45 PRC] 签名验证成功
+[20-Oct-2025 14:45:45 PRC] 处理订单: PAY202510201420237014, 状态: TRADE_SUCCESS
+[20-Oct-2025 14:45:45 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 14:45:45 PRC] 订单状态更新成功
+[20-Oct-2025 14:48:09 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371420101827
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 14:23:46
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510201423402845
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 14:48:07
+    [body] => C�ҳ�ֵ
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 14:23:51
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222142351015371448724042
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 5c055cc2261b43e06429487328c77dc3
+)
+
+[20-Oct-2025 14:48:09 PRC] 签名验证成功
+[20-Oct-2025 14:48:09 PRC] 处理订单: PAY202510201423402845, 状态: TRADE_SUCCESS
+[20-Oct-2025 14:48:09 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 14:48:09 PRC] 订单状态更新成功
+[20-Oct-2025 15:46:10 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371417952669
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 14:20:29
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510201420237014
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 15:46:08
+    [body] => C�ҳ�ֵ
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 14:20:35
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222142035015371447698089
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 2b7d0e7b2eae89b3d0d1d82b90bb4b73
+)
+
+[20-Oct-2025 15:46:10 PRC] 签名验证成功
+[20-Oct-2025 15:46:10 PRC] 处理订单: PAY202510201420237014, 状态: TRADE_SUCCESS
+[20-Oct-2025 15:46:10 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 15:46:10 PRC] 订单状态更新成功
+[20-Oct-2025 15:49:33 PRC] 收到支付宝通知: Array
+(
+    [discount] => 0.00
+    [payment_type] => 1
+    [trade_no] => 2025102022001415371420101827
+    [subject] => C�ҳ�ֵ
+    [buyer_email] => 250***@qq.com
+    [gmt_create] => 2025-10-20 14:23:46
+    [notify_type] => trade_status_sync
+    [quantity] => 1
+    [out_trade_no] => PAY202510201423402845
+    [seller_id] => 2088002135244083
+    [notify_time] => 2025-10-20 15:49:32
+    [body] => C�ҳ�ֵ
+    [trade_status] => TRADE_SUCCESS
+    [is_total_fee_adjust] => N
+    [total_fee] => 0.01
+    [gmt_payment] => 2025-10-20 14:23:51
+    [seller_email] => love_zxd@163.com
+    [price] => 0.01
+    [buyer_id] => 2088612408215379
+    [notify_id] => 2025102001222142351015371448724042
+    [use_coupon] => N
+    [sign_type] => MD5
+    [sign] => 11d7dc263f13cacfa40e527f0c63bc22
+)
+
+[20-Oct-2025 15:49:33 PRC] 签名验证成功
+[20-Oct-2025 15:49:33 PRC] 处理订单: PAY202510201423402845, 状态: TRADE_SUCCESS
+[20-Oct-2025 15:49:34 PRC] 在服务器 一区·新手村 找到订单
+[20-Oct-2025 15:49:34 PRC] 订单状态更新成功

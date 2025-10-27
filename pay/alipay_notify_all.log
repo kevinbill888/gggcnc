@@ -1,0 +1,58 @@
+=== 2025-10-20 04:53:25 ===
+POST数据: 
+POST参数: Array
+(
+)
+
+GET参数: Array
+(
+)
+
+SERVER信息: Array
+(
+    [USER] => www
+    [HOME] => /home/www
+    [HTTP_COOKIE] => SITE_TOTAL_ID=f3275c105b44c2f10aa5a5e3cdb8d717; PHPSESSID=ivhsfrne3b749p9sfgl9nqcal5
+    [HTTP_PRIORITY] => u=0, i
+    [HTTP_ACCEPT_LANGUAGE] => zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_SEC_FETCH_USER] => ?1
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_SITE] => none
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA] => "Not)A;Brand";v="8", "Chromium";v="138", "Microsoft Edge";v="138"
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_HOST] => reg.cnctz.com
+    [PATH_INFO] => 
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => reg.cnctz.com
+    [SERVER_PORT] => 443
+    [SERVER_ADDR] => 156.238.240.35
+    [REMOTE_PORT] => 52528
+    [REMOTE_ADDR] => 156.238.240.35
+    [SERVER_SOFTWARE] => nginx/1.21.4
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTPS] => on
+    [REQUEST_SCHEME] => https
+    [SERVER_PROTOCOL] => HTTP/2.0
+    [DOCUMENT_ROOT] => /www/wwwroot/reg.cnctz.com
+    [DOCUMENT_URI] => /i/pay/4.php
+    [REQUEST_URI] => /i/pay/4.php
+    [SCRIPT_NAME] => /i/pay/4.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [SCRIPT_FILENAME] => /www/wwwroot/reg.cnctz.com/i/pay/4.php
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /i/pay/4.php
+    [REQUEST_TIME_FLOAT] => 1760907204.1968
+    [REQUEST_TIME] => 1760907204
+)
+
+
