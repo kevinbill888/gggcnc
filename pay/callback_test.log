@@ -1,0 +1,93 @@
+<?php
+// 创建 pay/strict_test.php
+require_once '../config.php';
+require_once 'alipay/AlipayMd5Pay.php';
+
+session_start();
+if (!isset($_SESSION['user_no'])) {
+    die('请先登录');
+}
+
+echo "<h2>严格测试版本</h2>";
+
+// 如果是提交表单
+if ($_POST) {
+    $amount = floatval($_POST['amount']);
+    $order_no = 'STRICT' . date('YmdHis') . rand(1000, 9999);
+    
+    // 手动构建参数，完全按照ASP的方式
+    $parameters = array();
+    $parameters['service'] = 'create_direct_pay_by_user';
+    $parameters['payment_type'] = '1';
+    $parameters['partner'] = ALIPAY_PARTNER;
+    $parameters['seller_email'] = ALIPAY_SELLER_EMAIL;
+    $parameters['return_url'] = SITE_URL . '/pay/debug_return.php';
+    $parameters['notify_url'] = SITE_URL . '/pay/notify.php';
+    $parameters['_input_charset'] = ALIPAY_INPUT_CHARSET;
+    $parameters['out_trade_no'] = $order_no;
+    $parameters['subject'] = 'StrictTest';  // 英文，避免编码问题
+    $parameters['body'] = 'Test';  // 简单的英文
+    $parameters['total_fee'] = $amount;
+    
+    // 排序
+    ksort($parameters);
+    reset($parameters);
+    
+    // 生成签名字符串
+    $signString = '';
+    foreach ($parameters as $key => $value) {
+        if ($value !== '' && !is_array($value)) {
+            // 不需要编码，因为都是英文
+            $signString .= $key . '=' . $value . '&';
+        }
+    }
+    $signString = rtrim($signString, '&');
+    $signString .= ALIPAY_KEY;
+    
+    // 生成MD5
+    $sign = md5($signString);
+    
+    // 添加签名
+    $parameters['sign'] = $sign;
+    $parameters['sign_type'] = 'MD5';
+    
+    // 构建URL
+    $url = ALIPAY_GATEWAY . '?';
+    foreach ($parameters as $key => $value) {
+        $url .= $key . '=' . urlencode($value) . '&';
+    }
+    $url = rtrim($url, '&');
+    
+    echo "<h3>订单创建成功！</h3>";
+    echo "<p>订单号: $order_no</p>";
+    echo "<p>金额: ￥$amount</p>";
+    echo "<p><a href='$url' target='_blank' style='font-size:18px;color:red;'>点击这里去支付</a></p>";
+    
+    // 显示调试信息
+    echo "<h3>调试信息：</h3>";
+    echo "<p>签名字符串:</p>";
+    echo "<textarea style='width:100%;height:100px;'>" . htmlspecialchars($signString) . "</textarea>";
+    echo "<p>MD5签名: $sign</p>";
+    echo "<p>完整URL:</p>";
+    echo "<textarea style='width:100%;height:100px;'>" . htmlspecialchars($url) . "</textarea>";
+    
+    exit;
+}
+
+// 显示表单
+?>
+<form method="post">
+    <h3>创建测试订单（严格版本）</h3>
+    <p>
+        <label>充值金额：</label>
+        <input type="number" name="amount" value="0.01" min="0.01" max="10" step="0.01" required>
+        <span>元</span>
+    </p>
+    <p>
+        <button type="submit" style="font-size:16px;padding:10px 20px;">创建订单并支付</button>
+    </p>
+</form>
+
+<hr>
+
+<p><strong>说明：</strong>这个版本使用英文参数，避免中文编码问题。</p>

@@ -1,0 +1,239 @@
+/* 通用游戏风格样式 */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary-color: #00ffff;
+    --secondary-color: #ff00ff;
+    --accent-color: #ffff00;
+    --bg-dark: #0a0a0a;
+    --bg-medium: #1a1a2e;
+    --bg-light: #16213e;
+    --text-primary: #ffffff;
+    --text-secondary: #888888;
+    --border-color: rgba(0,255,255,0.3);
+    --shadow-glow: 0 0 20px rgba(0,255,255,0.5);
+}
+
+/* 通用容器样式 */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* 通用卡片样式 */
+.game-card {
+    background: linear-gradient(135deg, rgba(22,33,62,0.8) 0%, rgba(26,26,46,0.8) 100%);
+    border: 1px solid var(--border-color);
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.game-card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(0,255,255,0.1) 0%, transparent 70%);
+    animation: rotate 20s linear infinite;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-glow);
+    border-color: var(--primary-color);
+}
+
+/* 通用按钮样式 */
+.btn-game {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 30px;
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    border: none;
+    border-radius: 25px;
+    color: var(--text-primary);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-game::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    transition: left 0.5s ease;
+}
+
+.btn-game:hover::before {
+    left: 100%;
+}
+
+.btn-game:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(0,255,255,0.5);
+}
+
+/* 通用标题样式 */
+.game-title {
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* 通用表格样式 */
+.game-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(22,33,62,0.5);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.game-table th {
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    color: var(--text-primary);
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.game-table td {
+    padding: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    color: var(--text-primary);
+}
+
+.game-table tr:hover {
+    background: rgba(0,255,255,0.1);
+}
+
+/* 通用表单样式 */
+.game-form .form-group {
+    margin-bottom: 20px;
+}
+
+.game-form label {
+    display: block;
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.game-form input,
+.game-form select,
+.game-form textarea {
+    width: 100%;
+    padding: 12px 20px;
+    background: rgba(22,33,62,0.5);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    color: var(--text-primary);
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.game-form input:focus,
+.game-form select:focus,
+.game-form textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 10px rgba(0,255,255,0.5);
+}
+
+/* 通用提示框样式 */
+.game-alert {
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.game-alert.success {
+    background: rgba(76,175,80,0.2);
+    border: 1px solid rgba(76,175,80,0.5);
+    color: #4caf50;
+}
+
+.game-alert.error {
+    background: rgba(244,67,54,0.2);
+    border: 1px solid rgba(244,67,54,0.5);
+    color: #f44336;
+}
+
+.game-alert.info {
+    background: rgba(33,150,243,0.2);
+    border: 1px solid rgba(33,150,243,0.5);
+    color: #2196f3;
+}
+
+/* 动画效果 */
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+@keyframes glow {
+    0% { filter: drop-shadow(0 0 5px var(--primary-color)); }
+    50% { filter: drop-shadow(0 0 20px var(--secondary-color)); }
+    100% { filter: drop-shadow(0 0 5px var(--primary-color)); }
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .game-title {
+        font-size: 24px;
+    }
+    
+    .game-card {
+        padding: 20px;
+    }
+    
+    .btn-game {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .game-table {
+        font-size: 14px;
+    }
+    
+    .game-table th,
+    .game-table td {
+        padding: 10px;
+    }
+}

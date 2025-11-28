@@ -1,0 +1,129 @@
+/* Loading遮罩层 */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999;
+    backdrop-filter: blur(5px);
+}
+
+/* Loading容器 */
+.loading-container {
+    text-align: center;
+    color: #fff;
+}
+
+/* CNCTZ Logo动画 */
+.loading-logo {
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientShift 3s ease infinite, pulse 2s ease-in-out infinite;
+    margin-bottom: 20px;
+    letter-spacing: 8px;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+}
+
+/* 渐变色动画 */
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* 脉冲动画 */
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.1); opacity: 0.8; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+/* Loading文字 */
+.loading-text {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 30px;
+    animation: fadeInOut 2s ease-in-out infinite;
+}
+
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 1; }
+}
+
+/* Loading圆圈 */
+.loading-spinner {
+    width: 60px;
+    height: 60px;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #fff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Loading进度条 */
+.loading-progress {
+    width: 300px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.loading-progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #45b7d1);
+    background-size: 200% 100%;
+    animation: progressMove 2s linear infinite, gradientShift 3s ease infinite;
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+@keyframes progressMove {
+    0% { width: 0%; }
+    50% { width: 70%; }
+    100% { width: 100%; }
+}
+
+/* 粒子效果 */
+.loading-particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.particle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    border-radius: 50%;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0) translateX(0); opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { transform: translateY(-100px) translateX(50px); opacity: 0; }
+}
